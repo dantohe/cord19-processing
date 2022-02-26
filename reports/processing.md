@@ -1,5 +1,7 @@
 # Processing Workflow
 This page provides some insight into the processing steps.  
+The code for the dags and operators is in the following folder
+![](../airflow-dags-code/)      
 Currently, there are three stages for processing (each phase with its own Airfloe DAG):
 - a data preparation and pre-processing phase
 - a data processing pipeline using a small data set - this phase proves the viability of the pipeline and also gives some estimations regarding the time necessary to process the entire data set
