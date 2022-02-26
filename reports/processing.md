@@ -27,3 +27,12 @@ The following image presents the Airflow tree of this small set processing
 The following image presents the the time it took for each task to finish this small set processing.
 ![](../images/processing-small-03.png)    
 
+### Data processing using the entire set of papers 
+The following graph (derived from Airflow) explains the  steps taken for processing the corpus
+![](../images/processing-01.png)    
+
+The following image presents the Airflow tree of processing
+![](../images/processing-02.png)    
+
+The following image presents the the time it took for each task to finish the processing.
+![](../images/processing-03.png)    
