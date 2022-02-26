@@ -8,3 +8,10 @@ Currently, there are three stages for processing:
 ### Data pre-processing   
 The following graph (derived from Airflow) explains the  steps taken for pre-processing the corpus:   
 ![](../images/preprocessing-01.png)    
+
+The following image presents the Airflow tree of this processing
+![](../images/preprocessing-02.png)    
+
+The following image presents the the time it took for each task to finish the pre processing.
+![](../images/preprocessing-03.png)    
+
