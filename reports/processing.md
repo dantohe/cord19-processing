@@ -1,9 +1,11 @@
 # Processing Workflow
 This page provides some insight into the processing steps.  
-Currently, there are three stages for processing:
+Currently, there are three stages for processing (each phase with its own Airfloe DAG):
 - a data preparation and pre-processing phase
 - a data processing pipeline using a small data set - this phase proves the viability of the pipeline and also gives some estimations regarding the time necessary to process the entire data set
 - the ML pipeline per se - providing the run of the pipeline using the entire data set
+
+![](../images/all-dags.png)    
 
 ### Data pre-processing   
 The following graph (derived from Airflow) explains the  steps taken for pre-processing the corpus:   
@@ -14,4 +16,14 @@ The following image presents the Airflow tree of this processing
 
 The following image presents the the time it took for each task to finish the pre processing.
 ![](../images/preprocessing-03.png)    
+
+### Data processing using a small subset of papers 
+The following graph (derived from Airflow) explains the  steps taken for processing a small subset of the corpus (around 1500 papers)
+![](../images/processing-small-01.png)    
+
+The following image presents the Airflow tree of this small set processing
+![](../images/processing-small-02.png)    
+
+The following image presents the the time it took for each task to finish this small set processing.
+![](../images/processing-small-03.png)    
 
