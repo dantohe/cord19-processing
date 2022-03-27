@@ -1,4 +1,4 @@
-# Deployment Architecture
+# Deployment Architecture and Deployment Steps/Phases
 This document describes the deployment architecture and some related aspects like:
 - design decision
 - associated cost 
