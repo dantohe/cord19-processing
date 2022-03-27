@@ -193,7 +193,7 @@ def selected_topics(model, vectorizer, top_n=3):
         return_values.append(ii[0])
     return return_values
 
-def latent_dirichlet_allocation_v01(df=Variable.get('spacy_preprocessed')):
+def latent_dirichlet_allocation_v01(df=Variable.get('ml_data_with_kmeans_applied')):
     dataframe = pd.read_csv(df)
     k = int(Variable.get('ml_kmeans_number_of_clusters'))
     
