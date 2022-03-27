@@ -43,15 +43,27 @@ Run the cord19 CloudFormation template to create the necessary Glue database
 
 ## Infrastructure Deployment
 A Jupyter notebook that deploys the necessary resources for the ML pipeline.
+In order to deploy the infrastructure the pre deployment requirements need to be met (see above).
+Next step is to open the Jupyter notebook located in this current folder and follow all the instructions up until the resources de allocation.
 
-### Phase 1
+
+### Phase 1 - EC2 and Airflow configuration 
 ![](../images/infrastructure-phase-1.png)    
 
-### Phase 2
+### Phase 2 - Redshift and data lake setup 
 ![](../images/infrastructure-phase-2.png)     
 
-### Phase 3
+### Phase 3 - Airflow and Redshift in place - dags ready to be triggered 
 ![](../images/infrastructure-phase-3.png)     
 
-### Phase 4
+### Phase 4 - Trigger data pre processing  
+![](../images/processing-01.png)     
+
+### Phase 5 - Trigger data processing on a small data subset  
+![](../images/processing-small-01.png)     
+
+### Phase 6 - Trigger data processing on the entire data subset  
+![](../images/processing-01.png)     
+
+### Phase 7 - Resource de allocation 
 ![](../images/infrastructure-phase-4.png)     
